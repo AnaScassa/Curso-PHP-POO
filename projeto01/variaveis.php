@@ -43,26 +43,27 @@
         <p>
             <?php
             //Serve para quebrar texto sem ser com \n, mas n funciona mt 
-                echo <<< TESTE
-                    Olá leitores que gostam de $curso!
-                        Tudo bem com vocês?
-                        anoo de $ano
-                    Abraços! \u{1F596}
-                TESTE;
+                //echo <<< TESTE
+                  //  Olá leitores que gostam de $curso!
+                    //    Tudo bem com vocês?
+                      //  anoo de $ano
+                    //Abraços! \u{1F596}
+                //TESTE;
             ?>
         </p>
         <p>String Nowdoc:</p>
         <p>
             <?php
             //Serve para quebrar texto sem ser com \n, mas n funciona mt 
-                echo <<< 'TESTE'
-                    Olá leitores que gostam de $curso!
-                        Tudo bem com vocês?
-                        anoo de $ano
-                    Abraços! \u{1F596}
-                TESTE;
+                //echo <<< 'TESTE'
+                //    Olá leitores que gostam de $curso!
+                //        Tudo bem com vocês?
+                //        anoo de $ano
+                //    Abraços! \u{1F596}
+                //TESTE;
             ?>
         </p>
+        <a href="formulario.html"><button>Próxima página</button></a>
     </center>
 </body>
 </html>

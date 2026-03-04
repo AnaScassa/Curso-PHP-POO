@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>projeto 1</title>
+</head>
+<body>
+    <center>
+    <!-- Em php para recuperar dados do html se usa
+     o "method = get -->
+
+    <h1>Interação com formularios</h1>
+
+    <section>
+        <form action="formulario2.php" method="get">
+            <label for="none">Nome: </label>
+            <!-- name é mais usado no php enquanto 
+             id é mais usado em js-->
+            <input type="text" name="nome" id="idNome">
+            <br><br>
+            <label for="none">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="idSobrenome">
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </center>
+</body>
+</html>

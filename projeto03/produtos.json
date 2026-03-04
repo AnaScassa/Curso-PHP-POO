@@ -1,0 +1,68 @@
+[
+    {
+        "nome": "Smartphone XYZ",
+        "preco": "1500",
+        "descricao": "Celular top com 128GB",
+        "categoria": "eletronico"
+    },
+    {
+        "nome": "Fone Bluetooth",
+        "preco": "200",
+        "descricao": "Fone de ouvido sem fio",
+        "categoria": "eletronico"
+    },
+    {
+        "nome": "telefone",
+        "preco": "1000",
+        "descricao": "sla",
+        "categoria": "eletronico"
+    },
+    {
+        "nome": "roupa",
+        "preco": "1000",
+        "descricao": "vestido",
+        "categoria": "moda"
+    },
+    {
+        "nome": "vestido",
+        "preco": "213213",
+        "descricao": "sla",
+        "categoria": "lazer"
+    },
+    {
+        "nome": "Teste",
+        "preco": "123",
+        "descricao": "oi",
+        "categoria": "eletronico"
+    },
+    {
+        "nome": "Teste2",
+        "preco": "123123",
+        "descricao": "oi",
+        "categoria": "eletronico"
+    },
+    {
+        "nome": "Vestido vermelho",
+        "preco": "150",
+        "descricao": "tamanho M",
+        "categoria": "moda"
+    },
+    {
+        "nome": "Outros",
+        "preco": "123",
+        "descricao": "outros",
+        "categoria": "outros"
+    },
+    {
+        "nome": "raquete",
+        "preco": "123",
+        "descricao": "raquete tenis",
+        "categoria": "lazer"
+    },
+    {
+        "nome": "celular",
+        "preco": "123",
+        "descricao": "moto g14",
+        "categoria": "eletronico"
+    }
+]

@@ -21,7 +21,7 @@
         echo "<p>Olá ${nome} ${sobrenome}"
 
     ?>
-
+    <a href="expressaoAritmetica.php"><button>Próxima página</button></a>
     </center>
 </body>
 </html>

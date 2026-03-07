@@ -30,6 +30,9 @@
     <p>Função "pi()" devolve o valor de pi ou "M_PI"</p>
     <p>Funções trigonometricas sin(), cos(), tg()</p>
     <p>Função raiz quadrada sqrqt()</p>
+
+    <a href="desafio01.php"><button>Próxima página</button></a>
+
 </body>
 </html>
 

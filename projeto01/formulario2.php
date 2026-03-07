@@ -18,7 +18,7 @@
         $nome = $_GET["nome"] ?? "sem nome";
         $sobrenome = $_GET["sobrenome"] ?? "desconhecido";
 
-        echo "<p>Olá ${nome} ${sobrenome}"
+        echo "<p>Olá ${nome} ${sobrenome}";
 
     ?>
     <a href="expressaoAritmetica.php"><button>Próxima página</button></a>

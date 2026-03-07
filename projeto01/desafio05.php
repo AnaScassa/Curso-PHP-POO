@@ -32,7 +32,7 @@ if(isset($_GET["analisar"])){
 
 ?>
 
-<a href="desafio05.php">
+<a href="superGlobais.php">
 <button>Próxima página</button>
 </a>
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="login-card">
+
+            <div class="logo-area">
+                <h1>💳 Caixa Eletrônico</h1>
+                <p>Acesse sua conta</p>
+            </div>
+
+            <form class="login-form" method="post">
+
+                <div class="input-group">
+                    <label for="cpf">CPF</label>
+                    <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <button class="login-button" type="submit" name="entrar">
+                    Entrar
+                </button>
+
+            </form>
+
+            <div class="register-area">
+                <p>Ainda não tem cadastro?</p>
+                <a href="cadastro.php">Cadastrar</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

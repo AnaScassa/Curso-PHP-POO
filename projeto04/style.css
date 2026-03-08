@@ -1,0 +1,229 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+
+body{
+height:100vh;
+background:linear-gradient(135deg,#203a43,#2c5364);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* CONTAINER */
+
+.container{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+/* CARD LOGIN / REGISTRO */
+
+.login-card{
+background:white;
+padding:40px;
+border-radius:12px;
+width:100%;
+max-width:400px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* LOGO */
+
+.logo-area{
+text-align:center;
+margin-bottom:25px;
+}
+
+.logo-area h1{
+color:#2c5364;
+margin-bottom:5px;
+}
+
+.logo-area p{
+color:#777;
+}
+
+/* INPUTS */
+
+.input-group{
+margin-bottom:15px;
+display:flex;
+flex-direction:column;
+}
+
+.input-group label{
+margin-bottom:5px;
+font-size:14px;
+color:#555;
+}
+
+.input-group input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+outline:none;
+transition:0.2s;
+}
+
+.input-group input:focus{
+border-color:#2c5364;
+}
+
+/* BOTÃO LOGIN / CADASTRO */
+
+.login-button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:6px;
+background:#2c5364;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.2s;
+margin-top:10px;
+}
+
+.login-button:hover{
+background:#203a43;
+}
+
+/* AREA REGISTRO */
+
+.register-area{
+text-align:center;
+margin-top:20px;
+}
+
+.register-area p{
+color:#555;
+margin-bottom:5px;
+}
+
+.register-area a{
+text-decoration:none;
+color:#2c5364;
+font-weight:bold;
+}
+
+.register-area a:hover{
+text-decoration:underline;
+}
+
+/* ================= */
+/* CAIXA ELETRÔNICO */
+/* ================= */
+
+.atm-card{
+background:white;
+padding:40px;
+border-radius:12px;
+width:100%;
+max-width:500px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* SALDO */
+
+.saldo-area{
+text-align:center;
+margin-bottom:30px;
+}
+
+.saldo-area h2{
+color:#555;
+margin-bottom:5px;
+}
+
+.saldo{
+font-size:32px;
+font-weight:bold;
+color:#2c5364;
+}
+
+/* AÇÕES */
+
+.acoes{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+/* FORM DO CAIXA */
+
+.atm-form{
+border:1px solid #eee;
+padding:15px;
+border-radius:8px;
+}
+
+.atm-form h3{
+margin-bottom:10px;
+color:#2c5364;
+}
+
+/* BOTÕES ATM */
+
+.atm-button{
+margin-top:10px;
+padding:10px;
+border:none;
+border-radius:6px;
+background:#2c5364;
+color:white;
+font-size:15px;
+cursor:pointer;
+transition:0.2s;
+width:100%;
+}
+
+.atm-button:hover{
+background:#203a43;
+}
+
+/* LOGOUT */
+
+.logout-area{
+margin-top:25px;
+text-align:center;
+}
+
+.logout-area a{
+color:#c0392b;
+font-weight:bold;
+text-decoration:none;
+}
+
+.logout-area a:hover{
+text-decoration:underline;
+}
+
+/* RESPONSIVO */
+
+@media (max-width:500px){
+
+.login-card{
+padding:30px 20px;
+}
+
+.atm-card{
+padding:30px 20px;
+}
+
+.saldo{
+font-size:26px;
+}
+
+}

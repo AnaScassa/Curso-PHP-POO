@@ -11,8 +11,10 @@
 
         //criando objeto c1 que recebe a classe Caneta
         //recebe os atributos e metodos
-        $c1 = new Caneta();
-        $c1 -> cor = "Azul";
+        $c1 = new Caneta("BIC", 0.5);
+        $c2 = new Caneta("Moodelo", 1.0);
+
+        echo "<br>Eu tenho uma caneta {$c1 -> getModelo()} de ponta {$c1 -> getPonta()}<br><br>";
 
             if (isset($_GET["tampa"])) {
                 if ($_GET["tampa"] == "destampar") {
@@ -29,6 +31,8 @@
             $c1->rabiscar();
             echo "<br><br>";
             print_r($c1);
+            echo "<br><br>";
+            print_r($c2);
         ?>
 
         <br><br>

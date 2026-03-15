@@ -1,6 +1,6 @@
 <?php
 
-class Pessoa {
+abstract class Pessoa {
     private $nome;
     private $idade;
     private $genero;
@@ -30,7 +30,7 @@ class Pessoa {
         $this->genero = $genero;
     }
 
-    public function fazerAniversario(){
+    public final function fazerAniversario(){
         $this->setIdade($this->getIdade() + 1);
     }
 }

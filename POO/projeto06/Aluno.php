@@ -33,4 +33,8 @@ class Aluno extends Pessoa {
         $this->setMatricula(false); 
         echo "<p>Matrícula cancelada!</p>";
     }
+
+    public function pagarMensalidade() {
+        echo "Pagamando mensalidade do aluno: " . $this->getNome();
+    }
 }

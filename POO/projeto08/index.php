@@ -19,8 +19,8 @@
         $u[0] = new Usuario("Ana", 20, "F", "ana_dev");
         $u[1] = new Usuario("Carlos", 50, "M", "carlinhos50");
 
-        $v[0] = new Video("Aula 01 de PHP", $u[0]);
-        $v[1] = new Video("Aula 02 de POO", $u[1]);
+        $v[0] = new Video("Aula 01 de PHP");
+        $v[1] = new Video("Aula 02 de POO");
 
         $v[0]->play();
         $v[0]->like();

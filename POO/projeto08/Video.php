@@ -8,9 +8,9 @@ include_once('AcoesVideo.php');
         private $curtidas;
         private $reproduzindo;
 
-        public function __construct($titulo, $avaliacoes) {
+        public function __construct($titulo) {
             $this->titulo = $titulo;
-            $this->avaliacoes = $avaliacoes;
+            $this->avaliacoes = 0;
             $this->views = 0;
             $this->curtidas = 0;
             $this->reproduzindo = false;
